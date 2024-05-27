@@ -1,0 +1,31 @@
+button{
+    background-color: red;
+    color: white;
+    height:30px;
+    width: 80px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 0.3;
+    text-align: center;
+    position: relative;
+}
+button:hover{
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgb(193, 75, 75)
+    } 
+/* .container {
+        height: 50px;
+         width:  400px; 
+        position: relative;
+        border: 3px solid green;
+      } */
+.center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }     
